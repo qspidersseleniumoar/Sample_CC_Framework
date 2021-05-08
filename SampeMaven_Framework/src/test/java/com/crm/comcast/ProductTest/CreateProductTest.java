@@ -17,4 +17,10 @@ public class CreateProductTest {
 	public void createProductWithIDTest() {
 		System.out.println("execute createProductWithIDTest");
  	}
+	
+	
+	@Test
+	public void deleteProduct() {
+		System.out.println("execute deleteProduct");
+ 	}
 }
