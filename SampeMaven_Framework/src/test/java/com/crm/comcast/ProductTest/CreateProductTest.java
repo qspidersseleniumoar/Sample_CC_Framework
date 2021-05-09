@@ -7,6 +7,11 @@ public class CreateProductTest {
 	
 	@Test(groups = "smokeTest")
 	public void createProductWithNAmeTest() {
+		String browser = System.getProperty("browser");
+		String enviorment = System.getProperty("env");
+		
+		System.out.println("BROWSER=======>"+browser);
+		System.out.println("enviorment=======>"+enviorment);
 		System.out.println("execute createProductWithNAmeTest");
  	}
 
